@@ -1,0 +1,87 @@
+* {
+    padding: 0px auto;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+.lista {
+    list-style: none;
+    padding: 0;
+    background-color: #050505ec;
+}
+.lista li {
+    display: inline;
+}
+.lista li a {
+    color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 300px;
+}
+.lista li a:hover {
+    background-color: rgb(146, 227, 169);
+    transition: 0.4s all;
+    border-radius: 8px;
+}
+table, th {
+    border: solid 1px black;
+    border-collapse:collapse ;
+}
+th, td {
+    padding: 5px 10px;
+}
+th {
+    background-color: rgb(146, 227, 169);
+    color: black;
+}
+/*odd todos os elementos ímpares*/
+table tr:nth-child(odd) {
+    background-color: #ddd;
+}
+/*even aplicado a todos os elementos pares*/
+table tr:nth-child(even) {
+    background-color: #fff;
+}
+.btn-green {
+    background-color: green;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn-red {
+    background-color: red;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn-green:hover {
+    background-color: rgb(3, 60, 3);
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.btn-red:hover {
+    background-color: rgb(158, 7, 7);
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.main-table {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+table {
+    box-shadow: 0px 4px 8px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
